@@ -1,0 +1,110 @@
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+    padding-bottom: 10px;
+  }
+  .logo {
+    width: 75px;
+    font-weight: 500;
+    margin-right: 100px;
+
+  }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #navigation p{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 200;
+    font-family: sans-serif;
+  }
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+  }
+  .icons img {
+    margin: 10px;
+    cursor: pointer;
+  }
+
+#heroGrid{
+    margin: 0px 5%;
+    display: grid;
+    min-height: 400px;
+    height: 70vh;
+    background-color: #E1A795;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+
+}
+#welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family:
+}
+
+#headShot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#skills{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+
+}
+
+.subHeader{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.skillsImages{
+    cursor: pointer;
+    display: flex-wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5%;
+    padding: 20px;
+}
+
+.footer{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background: #9FA091;
+    height: 100px;
+}
+
+.about{
+    color: white;
+}
+.resume{
+    color: white;
+}
+.contact{
+    color:white;
+}
+.p{
+    justify-content: center;
+    align-content: center;
+}
